@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>RL Solutions | Columbia, SC</title>
+  <meta name="description" content="Beseech Me">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type='text/css' href="animatedModal.js-master/demo/css/animate.min.css">
+
+  <link rel="stylesheet" type='text/css' href="multiple_steps_form/css/main.css">
+  <link rel="stylesheet" type='text/css' href="styles/main.css">
+
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic" rel="stylesheet" type="text/css">
+  <!-- CSS -->
+  <!-- <link rel="stylesheet" href="bootstrap-multi-step-registration/assets/bootstrap/css/bootstrap.min.css"> -->
+  <link rel="stylesheet" href="bootstrap-multi-step-registration/assets/css/form-elements.css">
+  <link rel="stylesheet" href="bootstrap-multi-step-registration/assets/css/style.css">
+  <link rel="stylesheet" type='text/css' href="CreativeButtons/css/component.css">
+
+</head>
+
+<body>
+
+
+<div class="header-wrap">
+  <div class="header-container">
+    <aside>
+      <img src="images/rlsolutions-logo-v1.png">
+    </aside>
+    <section>
+      <h1>(866) 782-7721</h1>
+      <span class="fa fa-bars"></span>
+    </section>
+  </div>
+</div>
+
+<div class="menu-slideout">
+  <li><h1>About</h1></li>
+  <li><h1>Sales & Consulting</h1></li>
+  <li><h1>Driver Opportunities</h1></li>
+  <li><h1>Rate Request</h1></li>
+  <li><h1>Contact</h1></li>
+</div>
+
+<div id="animatedModal">
+    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
+
+        
+    <div class="modal-content">
+
+
+      <div class="rate-request">
+
+        <header>
+          <aside class="close-animatedModal"> 
+            <span class="fa fa-long-arrow-left"></span>
+            <p>Return to homepage</p>
+          </aside>
+
+        </header>
+
+              
+              <form role="form" action="request.php" method="POST" class="registration-form">
+                
+                <fieldset>
+
+                    <div class="form-bottom">
+                      <section class="form-group">
+                        <input type="text" name="form-business-name" placeholder="Company name" class="form-first-name form-control" id="form-business-name">
+                      </section>
+                      <section class="form-group">
+                        <input type="text" name="form-full-name" placeholder="Full Name" class="form-full-name form-control" id="form-full-name">
+                      </section>
+                      <section class="form-group">
+                        <input type="text" name="form-email" placeholder="Email address" class="form-about-yourself form-control" id="form-email"></textarea>
+                      </section>
+                      <button type="button" class="btn-next">Next</button>
+                    </div>
+
+                    <div class="form-top">
+                      <div class="form-top-left">
+                        <span class="fa fa-circle"></span>
+                        <span class="fa fa-circle-o"></span>
+                        <span class="fa fa-circle-o"></span>
+                      </div>
+                    </div>
+              </fieldset>
+              
+              <fieldset>
+                  <div class="form-top">
+                    <div class="form-top-left">
+                      <h3>Step 2 / 3</h3>
+                      <p>Shipment Info</p>
+                    </div>
+
+                    </div>
+                    <div class="form-bottom">
+                      <section class="form-group">
+                        <input type="text" name="form-origin-zip" placeholder="Origin Zip..." class="form-origin-zip form-control" id="form-origin-zip">
+                      </section>
+                      <section class="form-group">
+                        <input type="date" name="form-pickup-date" placeholder="Pickup Date..." class="form-pickup-date form-control" id="form-pickup-date">
+                      </section>
+                      <section class="form-group">
+                        <input type="text" name="form-dest-zip" placeholder="Destination Zip..." class="form-dest-zip form-control" id="form-dest-zip">
+                      </section>
+                      <section class="form-group">
+                        <input type="date" name="form-pickup-date" placeholder="Pickup Date..." class="form-pickup-date form-control" id="form-pickup-date">
+                      </section>
+                      <button type="button" class="btn-previous">Previous</button>
+                      <button type="button" class="btn-next">Next</button>
+                    </div>
+              </fieldset>
+              
+              <fieldset>
+                  <div class="form-top">
+                    <div class="form-top-left">
+                      <h3>Step 3 / 3</h3>
+                      <p>Shipment Details</p>
+                    </div>
+  
+                    </div>
+                    <div class="form-bottom">
+                      <section class="form-group">
+                        <input type="text" name="form-facebook" placeholder="Facebook..." class="form-facebook form-control" id="form-facebook">
+                      </section>
+                      <section class="form-group">
+                        <input type="text" name="form-twitter" placeholder="Twitter..." class="form-twitter form-control" id="form-twitter">
+                      </section>
+                      <section class="form-group">
+                        <input type="text" name="form-google-plus" placeholder="Google plus..." class="form-google-plus form-control" id="form-google-plus">
+                      </section>
+                      <button type="button" class="btn-previous">Previous</button>
+                      <button type="submit" class="btn-next">Submit</button>
+                    </div>
+              </fieldset>
+            
+            </form>
+
+      </div>
+
+    </div>
+</div>
+
+<div class="homepage-hero-module">
+    <div class="social-media-trigger">
+      <span class="fa fa-bars"></span>
+    </div>
+    <div class="homepage-banner">
+      <section><h1>Real People.</h1><h2>Real Solutions.</h2></section>
+      <li><a id="demo01" href="#animatedModal"><button class="btn btn-3 btn-3e icon-arrow-right">Request a Rate</button></a></li>
+    </div>
+
+    <div class="scroll-down"><h1>Scroll Down</h1></div>
+    <div class="video-container">
+        <div class="filter"></div>
+        <video autoplay loop class="fillWidth">
+            <source src="bower_components/River-Side/MP4/River-Side.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="bower_components/River-Side/WEBM/River-Side.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+        </video>
+        <div class="poster hidden">
+        </div>
+    </div>
+</div>
+
+<div class="services-wrap">
+
+  <div class="services">
+    <li>
+      <section><img src="images/rsolution-shape-gold.png"><span class="fa fa-circle-thin"></span></section
+      ><aside><h2>Logistics</h2><h1>RL Solutions is not only a full-service third-party logistics company, but provides full asset-based capabilities as well. </h1></aside>
+    </li
+    ><li>
+      <section><img src="images/rsolution-shape-gold.png"><span class="fa fa-circle-thin"></span></section
+      ><aside><h2>Solutions</h2><h1>RL Solutions is dedicated to providing it’s customers with efficient solutions to simplify their shipping needs.</h1></aside>
+    </li
+    ><li>
+      <section><img src="images/rsolution-shape-gold.png"><span class="fa fa-circle-thin"></span></section
+      ><aside><h2>Service</h2><h1>We solve your transportation puzzle by combining our logistics expertise with state-of-the-industry technology.</h1></aside>
+    </li>
+
+    <button></button>
+  </div>
+</div>
+
+<div class="about-wrap">
+  <div class="about">
+    <aside><img src="images/conference.jpg"></aside
+
+    ><section>
+      <h1>Flexible Shipping Solutions and Unyielding Professionalism</h1>
+      <p>RL Solutions prides itself on tailoring our services to fit your needs.  In addition to our private fleet & owner-operators, we utilize an expansive nationwide carrier network. Think of us as the flexible option for your ever-evolving transportation needs. We’ll match your freight with the most efficient solution for your shipment, finding you the lowest cost and the most direct route available. RL Solutions’ contracted assets offer you true creativity for managing your freight challenges.</p>
+    </section>
+  </div>
+</div>
+
+<div class="testimonials-wrap">
+  <div class="testimonials">
+    <li>
+      <section><p>"This is just a sample testimonials, talking about how great RL Solutions service is. They are pretty awesome!"</p><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i></section>
+      <div><span></span><img src="images/businessman.png"><aside><h1>Ben Simmons</h1><h2>XYZ Company</h2></aside></div>
+    </li
+    ><li>
+      <section><p>"This is just a sample testimonials, talking about how great RL Solutions service is. They are pretty awesome!"</p><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star"></i></section>
+      <div><span></span><img src="images/trucker.png"><aside><h1>Jay Bozard</h1><h2>XYZ Company</h2></aside></div>
+    </li
+    ><li>
+      <section><p>"This is just a sample testimonials, talking about how great RL Solutions service is. They are pretty awesome!"</p><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star"></i></section>
+      <div><span></span><img src="images/girltest.png"><aside><h1>Emily Smith</h1><h2>XYZ Company</h2></aside></div>
+    </li>
+  </div>
+
+</div>
+
+<div class="footer-wrap">
+  <div class="footer">
+    <section>
+      <li><h1>Careers</h1></li
+      ><li><h1>About</h1></li
+      ><li><h1>Driver Opportunities</h1></li
+      ><li><h1>Contact</h1></li>
+      <p>RL Solutions, LLC</p>
+    </section>
+
+    <aside>
+      <li><span class="fa fa-linkedin"></span></li>
+      <li><span class="fa fa-facebook"></span></li>
+    </aside>
+  </div>
+</div>
+
+
+<!-- Javascript -->
+<script src='bower_components/jquery/dist/jquery.min.js'></script>
+<script src='bower_components/parsleyjs/dist/parsley.min.js'></script>
+<script src='multiple_steps_form/js/main.js'></script>
+<script src='multiple_steps_form/js/snap_svg.js'></script>
+<script src='multiple_steps_form/js/velocity.js'></script>
+
+<script src='animatedModal.js-master/animatedModal.min.js'></script>
+<script src='scripts/main.js'></script>
+<script src='scripts/step-form.js'></script>
+<script src="bootstrap-multi-step-registration/assets/bootstrap/js/bootstrap.min.js"></script>
+<script src="bootstrap-multi-step-registration/assets/js/jquery.backstretch.min.js"></script>
+<script src="bootstrap-multi-step-registration/assets/js/retina-1.1.0.min.js"></script>
+<script src="bootstrap-multi-step-registration/assets/js/scripts.js"></script>
+</body>
