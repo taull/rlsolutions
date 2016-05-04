@@ -19,7 +19,6 @@
 	cursor: pointer;
 	padding: 25px 80px;
 	display: inline-block;
-	margin: 15px 30px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -453,7 +452,7 @@
 
 /* Button 3 */
 .btn-3 {
-	background: rgba(255, 255, 255, .1);
+	background: #B71C1C;
 	color: #fff;
 	text-transform: none;
 	font-size: 1.4em;
@@ -461,7 +460,7 @@
 }
 
 .btn-3:hover {
-	background: rgba(255, 255, 255, .2);
+	background: #C62828;
 }
 
 .btn-3:active {
@@ -470,6 +469,35 @@
 }
 
 .btn-3:before {
+	position: absolute;
+	height: 100%;
+	left: 0;
+	top: 0;
+	line-height: 3;
+    font-size: 120%;
+    width: 45px;
+}
+
+/* Button 3 Alt */
+.btn-3alt {
+	background: #2962FF;
+	
+	color: #fff;
+	text-transform: none;
+	font-size: 1.4em;
+	font-weight: 300;
+}
+
+.btn-3alt:hover {
+	background: #2962FF;
+}
+
+.btn-3alt:active {
+	background: #f58500;
+	top: 2px;
+}
+
+.btn-3alt:before {
 	position: absolute;
 	height: 100%;
 	left: 0;

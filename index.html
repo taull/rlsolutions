@@ -26,11 +26,14 @@
 <div class="header-wrap">
   <div class="header-container">
     <aside>
-      <img src="images/rlsolutions-logo-v1.png">
+      <img src="images/rlsolutions-reversed-v5.png">
     </aside>
     <section>
-      <h1>(866) 782-7721</h1>
-      <span class="fa fa-bars"></span>
+      <a class="active-menu">Home</a>
+      <a>About Us</a>
+      <a>Careers</a>
+      <a>Meet the Team</a>
+
     </section>
   </div>
 </div>
@@ -64,7 +67,13 @@
               <form role="form" action="request.php" method="POST" class="registration-form">
                 
                 <fieldset>
-
+                    <div class="form-top">
+                      <div class="form-top-left">
+                        <span class="fa fa-circle active-step"></span>
+                        <span class="fa fa-circle"></span>
+                        <span class="fa fa-circle"></span>
+                      </div>
+                    </div>
                     <div class="form-bottom">
                       <section class="form-group">
                         <input type="text" name="form-business-name" placeholder="Company name" class="form-first-name form-control" id="form-business-name">
@@ -78,22 +87,16 @@
                       <button type="button" class="btn-next">Next</button>
                     </div>
 
-                    <div class="form-top">
-                      <div class="form-top-left">
-                        <span class="fa fa-circle"></span>
-                        <span class="fa fa-circle-o"></span>
-                        <span class="fa fa-circle-o"></span>
-                      </div>
-                    </div>
+
               </fieldset>
               
               <fieldset>
-                  <div class="form-top">
-                    <div class="form-top-left">
-                      <h3>Step 2 / 3</h3>
-                      <p>Shipment Info</p>
-                    </div>
-
+                    <div class="form-top">
+                      <div class="form-top-left">
+                        <span class="fa fa-circle active-step"></span>
+                        <span class="fa fa-circle active-step"></span>
+                        <span class="fa fa-circle"></span>
+                      </div>
                     </div>
                     <div class="form-bottom">
                       <section class="form-group">
@@ -111,29 +114,32 @@
                       <button type="button" class="btn-previous">Previous</button>
                       <button type="button" class="btn-next">Next</button>
                     </div>
+
+
               </fieldset>
               
               <fieldset>
-                  <div class="form-top">
-                    <div class="form-top-left">
-                      <h3>Step 3 / 3</h3>
-                      <p>Shipment Details</p>
-                    </div>
-  
-                    </div>
-                    <div class="form-bottom">
-                      <section class="form-group">
-                        <input type="text" name="form-facebook" placeholder="Facebook..." class="form-facebook form-control" id="form-facebook">
-                      </section>
-                      <section class="form-group">
-                        <input type="text" name="form-twitter" placeholder="Twitter..." class="form-twitter form-control" id="form-twitter">
-                      </section>
-                      <section class="form-group">
-                        <input type="text" name="form-google-plus" placeholder="Google plus..." class="form-google-plus form-control" id="form-google-plus">
-                      </section>
-                      <button type="button" class="btn-previous">Previous</button>
-                      <button type="submit" class="btn-next">Submit</button>
-                    </div>
+                <div class="form-bottom">
+                  <section class="form-group">
+                    <input type="text" name="form-facebook" placeholder="Facebook..." class="form-facebook form-control" id="form-facebook">
+                  </section>
+                  <section class="form-group">
+                    <input type="text" name="form-twitter" placeholder="Twitter..." class="form-twitter form-control" id="form-twitter">
+                  </section>
+                  <section class="form-group">
+                    <input type="text" name="form-google-plus" placeholder="Google plus..." class="form-google-plus form-control" id="form-google-plus">
+                  </section>
+                  <button type="button" class="btn-previous">Previous</button>
+                  <button type="submit" class="btn-next">Submit</button>
+                </div>
+
+                <div class="form-top">
+                  <div class="form-top-left">
+                    <span class="fa fa-circle active-step"></span>
+                    <span class="fa fa-circle active-step"></span>
+                    <span class="fa fa-circle active-step"></span>
+                  </div>
+                </div>
               </fieldset>
             
             </form>
@@ -147,12 +153,9 @@
     <div class="social-media-trigger">
       <span class="fa fa-bars"></span>
     </div>
-    <div class="homepage-banner">
-      <section><h1>Real People.</h1><h2>Real Solutions.</h2></section>
-      <li><a id="demo01" href="#animatedModal"><button class="btn btn-3 btn-3e icon-arrow-right">Request a Rate</button></a></li>
-    </div>
 
     <div class="scroll-down"><h1>Scroll Down</h1></div>
+    <div class="video-overlay"></div>
     <div class="video-container">
         <div class="filter"></div>
         <video autoplay loop class="fillWidth">
@@ -162,25 +165,63 @@
         <div class="poster hidden">
         </div>
     </div>
+    <div class="homepage-about-wrap">
+      <div class="homepage-about">
+        <section><h1>Real People.</h1><h2>Real Solutions.</h2></section>
+
+        <aside>
+          <h1>Think of us as the flexible option for your ever-evolving transportation needs</h1>
+          <div><img src="images/trucker.png"><h2>Jay Bozard,</h2><h3>Managing Partner</h3></div>
+        </aside
+        ><section>
+          <li><p>RL Solutions prides itself on tailoring our services to fit your needs.  In addition to our private fleet & owner-operators, we utilize an expansive nationwide carrier network. We’ll match your freight with the most efficient solution for your shipment, finding you the lowest cost and the most direct route available. RL Solutions’ contracted assets offer you true creativity for managing your freight challenges.</p></li>
+
+        </section>
+      </div>
+    </div>
 </div>
 
-<div class="services-wrap">
 
+
+
+<div class="services-wrap">
   <div class="services">
     <li>
-      <section><img src="images/rsolution-shape-gold.png"><span class="fa fa-circle-thin"></span></section
-      ><aside><h2>Logistics</h2><h1>RL Solutions is not only a full-service third-party logistics company, but provides full asset-based capabilities as well. </h1></aside>
+      <section><img src="images/lynny-download/PNGs/Misc/Atom@2x.png"><h2>Logistics</h2><span class="fa fa-circle-thin"></span></section
+      ><aside><h1>RL Solutions is not only a full-service third-party logistics company, but provides full asset-based capabilities as well. </h1></aside>
     </li
     ><li>
-      <section><img src="images/rsolution-shape-gold.png"><span class="fa fa-circle-thin"></span></section
-      ><aside><h2>Solutions</h2><h1>RL Solutions is dedicated to providing it’s customers with efficient solutions to simplify their shipping needs.</h1></aside>
+      <section><img src="images/lynny-download/PNGs/Web/Share 3@2x.png"><h2>Solutions</h2><span class="fa fa-circle-thin"></span></section
+      ><aside><h1>RL Solutions is dedicated to providing it’s customers with efficient solutions to simplify their shipping needs.</h1></aside>
     </li
-    ><li>
-      <section><img src="images/rsolution-shape-gold.png"><span class="fa fa-circle-thin"></span></section
-      ><aside><h2>Service</h2><h1>We solve your transportation puzzle by combining our logistics expertise with state-of-the-industry technology.</h1></aside>
-    </li>
 
+    ><li>
+      <section><img src="images/lynny-download/PNGs/General/Users 1@2x.png"><h2>Service</h2><span class="fa fa-circle-thin"></span></section
+      ><aside><h1>We solve your transportation puzzle by combining our logistics expertise with state-of-the-industry technology.</h1></aside>
+    </li>
     <button></button>
+  </div>
+</div>
+
+<div class="rate-wrap">
+  <div class="rate">
+    <aside><a id="demo01" href="#animatedModal"><button class="btn btn-3 btn-3e icon-arrow-right">Request a Rate</button></a></aside
+    ><section><h1>Fill out our rate request form and we will get back to you within 24 hours</h1></section>
+  </div>
+</div>
+
+<div class="testimonials-wrap">
+  <div class="testimonials-overlay"></div>
+  <div class="testimonials">
+    <li>
+      <section>
+        <p>RL Solutions service is second to none! Would recommend!</p>
+      </section>
+      <div><img src="images/businessman.png"><h1>Ben Simmons,</h1><h2>XYZ Company</h2></div>
+    </li>
+    <aside>
+      <a><h1>Meet the Team</h1></a>
+    </aside>
   </div>
 </div>
 
@@ -193,24 +234,6 @@
       <p>RL Solutions prides itself on tailoring our services to fit your needs.  In addition to our private fleet & owner-operators, we utilize an expansive nationwide carrier network. Think of us as the flexible option for your ever-evolving transportation needs. We’ll match your freight with the most efficient solution for your shipment, finding you the lowest cost and the most direct route available. RL Solutions’ contracted assets offer you true creativity for managing your freight challenges.</p>
     </section>
   </div>
-</div>
-
-<div class="testimonials-wrap">
-  <div class="testimonials">
-    <li>
-      <section><p>"This is just a sample testimonials, talking about how great RL Solutions service is. They are pretty awesome!"</p><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i></section>
-      <div><span></span><img src="images/businessman.png"><aside><h1>Ben Simmons</h1><h2>XYZ Company</h2></aside></div>
-    </li
-    ><li>
-      <section><p>"This is just a sample testimonials, talking about how great RL Solutions service is. They are pretty awesome!"</p><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star"></i></section>
-      <div><span></span><img src="images/trucker.png"><aside><h1>Jay Bozard</h1><h2>XYZ Company</h2></aside></div>
-    </li
-    ><li>
-      <section><p>"This is just a sample testimonials, talking about how great RL Solutions service is. They are pretty awesome!"</p><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star active-star"></i><i class="fa fa-star"></i></section>
-      <div><span></span><img src="images/girltest.png"><aside><h1>Emily Smith</h1><h2>XYZ Company</h2></aside></div>
-    </li>
-  </div>
-
 </div>
 
 <div class="footer-wrap">
