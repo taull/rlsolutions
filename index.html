@@ -2,270 +2,261 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>RL Solutions | Columbia, SC</title>
-  <meta name="description" content="Beseech Me">
+  <title>RL Solutions | Home</title>
+  <meta name="description" content="RL Solutions is a full-service, third-party logistics and trucking company. We solve your transportation puzzle by combining years of logistics expertise with superior industry technology. The result is affordable, reliable, supply chain solutions.">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type='text/css' href="animatedModal.js-master/demo/css/animate.min.css">
-
-  <link rel="stylesheet" type='text/css' href="multiple_steps_form/css/main.css">
+  <link rel="shortcut icon" type="image/png" href="images/rlsolutions-favicon.png"/>
+  <link rel="shortcut icon" type="image/png" href="http://rlsolve.com/favicon.png"/>
   <link rel="stylesheet" type='text/css' href="styles/main.css">
+  <link rel="stylesheet" type='text/css' href="styles/animate.css">
 
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700,900,100italic,300italic,400italic,500italic,700italic,900italic" rel="stylesheet" type="text/css">
-  <!-- CSS -->
-  <!-- <link rel="stylesheet" href="bootstrap-multi-step-registration/assets/bootstrap/css/bootstrap.min.css"> -->
-  <link rel="stylesheet" href="bootstrap-multi-step-registration/assets/css/form-elements.css">
-  <link rel="stylesheet" href="bootstrap-multi-step-registration/assets/css/style.css">
-  <link rel="stylesheet" type='text/css' href="CreativeButtons/css/component.css">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
 
 </head>
 
-<body>
-
+<div class="loading-overlay">
+  <div class="container">
+    <div class="dot"></div>
+    <div class="dot"></div>
+    <div class="dot"></div>
+  </div>
+</div>
+ 
+<body class="unscrollable">
 
 <div class="header-wrap">
   <div class="header-container">
-    <aside>
-      <img src="images/rlsolutions-reversed-v5.png">
-    </aside>
     <section>
-      <a class="active-menu">Home</a>
-      <a>About Us</a>
-      <a>Careers</a>
-      <a>Meet the Team</a>
-
+      <li id="slideout-trigger">Toggle Menu</li>
     </section>
   </div>
 </div>
 
 <div class="menu-slideout">
-  <li><h1>About</h1></li>
-  <li><h1>Sales & Consulting</h1></li>
-  <li><h1>Driver Opportunities</h1></li>
-  <li><h1>Rate Request</h1></li>
-  <li><h1>Contact</h1></li>
-</div>
-
-<div id="animatedModal">
-    <!--THIS IS IMPORTANT! to close the modal, the class name has to match the name given on the ID  class="close-animatedModal" -->
-
-        
-    <div class="modal-content">
-
-
-      <div class="rate-request">
-
-        <header>
-          <aside class="close-animatedModal"> 
-            <span class="fa fa-long-arrow-left"></span>
-            <p>Return to homepage</p>
-          </aside>
-
-        </header>
-
-              
-              <form role="form" action="request.php" method="POST" class="registration-form">
-                
-                <fieldset>
-                    <div class="form-top">
-                      <div class="form-top-left">
-                        <span class="fa fa-circle active-step"></span>
-                        <span class="fa fa-circle"></span>
-                        <span class="fa fa-circle"></span>
-                      </div>
-                    </div>
-                    <div class="form-bottom">
-                      <section class="form-group">
-                        <input type="text" name="form-business-name" placeholder="Company name" class="form-first-name form-control" id="form-business-name">
-                      </section>
-                      <section class="form-group">
-                        <input type="text" name="form-full-name" placeholder="Full Name" class="form-full-name form-control" id="form-full-name">
-                      </section>
-                      <section class="form-group">
-                        <input type="text" name="form-email" placeholder="Email address" class="form-about-yourself form-control" id="form-email"></textarea>
-                      </section>
-                      <button type="button" class="btn-next">Next</button>
-                    </div>
-
-
-              </fieldset>
-              
-              <fieldset>
-                    <div class="form-top">
-                      <div class="form-top-left">
-                        <span class="fa fa-circle active-step"></span>
-                        <span class="fa fa-circle active-step"></span>
-                        <span class="fa fa-circle"></span>
-                      </div>
-                    </div>
-                    <div class="form-bottom">
-                      <section class="form-group">
-                        <input type="text" name="form-origin-zip" placeholder="Origin Zip..." class="form-origin-zip form-control" id="form-origin-zip">
-                      </section>
-                      <section class="form-group">
-                        <input type="date" name="form-pickup-date" placeholder="Pickup Date..." class="form-pickup-date form-control" id="form-pickup-date">
-                      </section>
-                      <section class="form-group">
-                        <input type="text" name="form-dest-zip" placeholder="Destination Zip..." class="form-dest-zip form-control" id="form-dest-zip">
-                      </section>
-                      <section class="form-group">
-                        <input type="date" name="form-pickup-date" placeholder="Pickup Date..." class="form-pickup-date form-control" id="form-pickup-date">
-                      </section>
-                      <button type="button" class="btn-previous">Previous</button>
-                      <button type="button" class="btn-next">Next</button>
-                    </div>
-
-
-              </fieldset>
-              
-              <fieldset>
-                <div class="form-bottom">
-                  <section class="form-group">
-                    <input type="text" name="form-facebook" placeholder="Facebook..." class="form-facebook form-control" id="form-facebook">
-                  </section>
-                  <section class="form-group">
-                    <input type="text" name="form-twitter" placeholder="Twitter..." class="form-twitter form-control" id="form-twitter">
-                  </section>
-                  <section class="form-group">
-                    <input type="text" name="form-google-plus" placeholder="Google plus..." class="form-google-plus form-control" id="form-google-plus">
-                  </section>
-                  <button type="button" class="btn-previous">Previous</button>
-                  <button type="submit" class="btn-next">Submit</button>
-                </div>
-
-                <div class="form-top">
-                  <div class="form-top-left">
-                    <span class="fa fa-circle active-step"></span>
-                    <span class="fa fa-circle active-step"></span>
-                    <span class="fa fa-circle active-step"></span>
-                  </div>
-                </div>
-              </fieldset>
-            
-            </form>
-
-      </div>
-
-    </div>
+  <li id="slideout-close">Collapse Menu</li>
+  <a href="/" class="active-menu">Home</a>
+  <a href="/about">About</a>
+  <a href="/driving">Driving Opportunities</a>
+  <a href="/careers">Careers</a>
+  <a href="/team">Meet the Team</a>
+  <a href="/quote">Get a Quote</a>
 </div>
 
 <div class="homepage-hero-module">
-    <div class="social-media-trigger">
-      <span class="fa fa-bars"></span>
-    </div>
-
-    <div class="scroll-down"><h1>Scroll Down</h1></div>
-    <div class="video-overlay"></div>
     <div class="video-container">
         <div class="filter"></div>
         <video autoplay loop class="fillWidth">
-            <source src="bower_components/River-Side/MP4/River-Side.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="bower_components/River-Side/WEBM/River-Side.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="images/communication-mapSD.mov" />Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
         <div class="poster hidden">
+            <!-- <img src="images/semi-truck1.jpg"> -->
         </div>
-    </div>
-    <div class="homepage-about-wrap">
-      <div class="homepage-about">
-        <section><h1>Real People.</h1><h2>Real Solutions.</h2></section>
 
-        <aside>
-          <h1>Think of us as the flexible option for your ever-evolving transportation needs</h1>
-          <div><img src="images/trucker.png"><h2>Jay Bozard,</h2><h3>Managing Partner</h3></div>
-        </aside
-        ><section>
-          <li><p>RL Solutions prides itself on tailoring our services to fit your needs.  In addition to our private fleet & owner-operators, we utilize an expansive nationwide carrier network. We’ll match your freight with the most efficient solution for your shipment, finding you the lowest cost and the most direct route available. RL Solutions’ contracted assets offer you true creativity for managing your freight challenges.</p></li>
+        <div id="banner" class="homepage-banner animated">
+          <section><object type="image/svg+xml" data="images/rlsolutions-logo.svg">Your browser does not support SVGs</object></section>
+          <aside>
+            <h1>Think of us as the flexible option for your ever-evolving transportation needs</h1>
+            <a>Our Mission</a>
+          </aside>
+          <div><h2>RL Solutions</h2><h3>Real People, Real Solutions</h3></div>
+        </div>
+        <div class="testimonials-overlay"></div>
 
-        </section>
-      </div>
     </div>
+
 </div>
 
+<div class="links-wrap animated" id="links">
+  <div class="links">
+    <a href="/quote"><span class="fa fa-pie-chart"></span><section><h1>Request a Quote</h1><h2>Learn More</h2></section></a
+    ><a href="/driving"><span class="fa fa-truck"></span><section><h1>Driving Opportunities</h1><h2>Learn More</h2></section></a
+
+    ><a href="/careers"><span class="fa fa-cloud"></span><section><h1>Careers</h1><h2>Learn More</h2></section></a>
+  </div>
+</div>
 
 
 
 <div class="services-wrap">
+  <header><h1>What we do</h1><h2>Our Services</h2></header>
   <div class="services">
-    <li>
-      <section><img src="images/lynny-download/PNGs/Misc/Atom@2x.png"><h2>Logistics</h2><span class="fa fa-circle-thin"></span></section
-      ><aside><h1>RL Solutions is not only a full-service third-party logistics company, but provides full asset-based capabilities as well. </h1></aside>
-    </li
-    ><li>
-      <section><img src="images/lynny-download/PNGs/Web/Share 3@2x.png"><h2>Solutions</h2><span class="fa fa-circle-thin"></span></section
-      ><aside><h1>RL Solutions is dedicated to providing it’s customers with efficient solutions to simplify their shipping needs.</h1></aside>
-    </li
 
+    <li>
+      <section>  
+        <span class="lnr lnr-cloud"></span>      
+      </section
+      ><aside>
+        <h2>Logistics</h2>
+        <h1>We solve your transportation puzzle by combining our logistics expertise with state-of-the-industry technology</h1>
+      </aside>
+      <div class="service-corner"></div>
+    </li
     ><li>
-      <section><img src="images/lynny-download/PNGs/General/Users 1@2x.png"><h2>Service</h2><span class="fa fa-circle-thin"></span></section
-      ><aside><h1>We solve your transportation puzzle by combining our logistics expertise with state-of-the-industry technology.</h1></aside>
+      <section>   
+        <span class="lnr lnr-layers"></span>      
+      </section
+      ><aside>        
+        <h2>Consulting</h2>
+        <h1>We are dedicated to providing our customers with efficient solutions to simplify their shipping needs</h1>
+      </aside>
+      <div class="service-corner"></div>
+
+    </li
+    ><li>
+      <section>    
+        <span class="lnr lnr-cog"></span>          
+      </section
+      ><aside> 
+        <h2>Service</h2>
+        <h1>We are committed to doing whatever it takes to make sure your freight is picked up and delivered on time</h1>
+      </aside>
+      <div class="service-corner"></div>
+    </li
+    ><li>
+      <section>    
+        <span class="lnr lnr-tablet"></span>          
+      </section
+      ><aside> 
+        <h2>24/7 Support</h2>
+        <h1>RL Solutions offers satellite tracking, EDI updates, as well as 24/7 customer support</h1>
+      </aside>
+      <div class="service-corner"></div>
+
     </li>
-    <button></button>
   </div>
 </div>
 
-<div class="rate-wrap">
-  <div class="rate">
-    <aside><a id="demo01" href="#animatedModal"><button class="btn btn-3 btn-3e icon-arrow-right">Request a Rate</button></a></aside
-    ><section><h1>Fill out our rate request form and we will get back to you within 24 hours</h1></section>
-  </div>
-</div>
+<div class="discover-wrap">
+  <div class="customer-service">
 
-<div class="testimonials-wrap">
-  <div class="testimonials-overlay"></div>
-  <div class="testimonials">
-    <li>
-      <section>
-        <p>RL Solutions service is second to none! Would recommend!</p>
-      </section>
-      <div><img src="images/businessman.png"><h1>Ben Simmons,</h1><h2>XYZ Company</h2></div>
-    </li>
-    <aside>
-      <a><h1>Meet the Team</h1></a>
+    <section>
+      <h1>Customer Service</h1>
+      <a href="mailto:customerservice@rlsolve.com?subject=RL Support Ticket">customerservice@rlsolve.com</a>
+    </section
+    ><aside>
+      <footer>
+        <a href="tel:1+8003890920"><h3>Toll Free</h3><h4>800-389-0920</h4><span class="lnr lnr-arrow-right"></span></a>
+        <a href="tel:8037827721"><h3>Local</h3><h4>803-782-7721</h4><span class="lnr lnr-arrow-right"></span></a>
+        <a href="tel:8037827763"><h3>Fax</h3><h4>803-782-7763</h4><span class="lnr lnr-arrow-right"></span></a>
+      </footer>
     </aside>
+
   </div>
+
 </div>
 
-<div class="about-wrap">
-  <div class="about">
-    <aside><img src="images/conference.jpg"></aside
+
+<div class="team-wrap">
+ <div class="team team-narrow">
+    <header><h1>Meet the Team</h1><h2>Our Friendly, Knowledgable Staff</h2></header
 
     ><section>
-      <h1>Flexible Shipping Solutions and Unyielding Professionalism</h1>
-      <p>RL Solutions prides itself on tailoring our services to fit your needs.  In addition to our private fleet & owner-operators, we utilize an expansive nationwide carrier network. Think of us as the flexible option for your ever-evolving transportation needs. We’ll match your freight with the most efficient solution for your shipment, finding you the lowest cost and the most direct route available. RL Solutions’ contracted assets offer you true creativity for managing your freight challenges.</p>
+
+      <li>
+        <div id="team-contact-1" class="team-contact">
+          <img src="images/team-mark.jpg">
+          <aside><h1>Mark Jackson</h1><h2>Managing Partner</h2></aside>
+        </div>
+        <div id="team-trigger-1" class="team-trigger"><span class="lnr lnr-menu"></span></div>
+        <div id="team-link-1" class="team-link">
+          <a href="mailto:jackson@rlsolve.com"><span class="fa fa-envelope"></span></a
+          ><a href="https://www.linkedin.com/in/mark-jackson-79470279?authType=NAME_SEARCH&authToken=ebR1&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A279442912%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1465235210298%2Ctas%3Amark%20jackson" target="_blank"><span class="fa fa-linkedin"></span></a>
+        </div>
+      </li      
+      ><li>
+        <div id="team-contact-2" class="team-contact">
+          <img src="images/team-drew.jpg">
+          <aside><h1>Drew Bozard</h1><h2>Managing Partner</h2></aside>
+        </div>
+        <div id="team-trigger-2" class="team-trigger"><span class="lnr lnr-menu"></span></div>
+        <div id="team-link-2" class="team-link">
+          <a href="mailto:bozard@rlsolve.com"><span class="fa fa-envelope"></span></a
+          ><a href="https://www.linkedin.com/in/drew-bozard-b543923a?authType=NAME_SEARCH&authToken=gm3K&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A138293488%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1465235152413%2Ctas%3Adrew%20bozard" target="_blank"><span class="fa fa-linkedin"></span></a>        
+        </div>
+      </li
+      ><li>
+        <div id="team-contact-3" class="team-contact">
+          <img src="images/team-jay1.jpg">
+          <aside><h1>Jay Bozard</h1><h2>Managing Partner</h2></aside>
+        </div>
+        <div id="team-trigger-3" class="team-trigger"><span class="lnr lnr-menu"></span></div>
+        <div id="team-link-3" class="team-link">
+          <a href="mailto:jay@rlsolve.com"><span class="fa fa-envelope"></span></a
+          ><a href="https://www.linkedin.com/in/jay-bozard-1997353b?authType=NAME_SEARCH&authToken=n5GY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A142154181%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1465235182566%2Ctas%3Ajay%20bozard" target="_blank"><span class="fa fa-linkedin"></span></a>        
+        </div>
+      </li
+      ><li>
+        <div id="team-contact-5" class="team-contact">
+          <img src="images/team-susanne.jpg">
+          <aside><h1>Susanne Smith</h1><h2>Chief Accounting Officer</h2></aside>
+        </div>
+        <div id="team-trigger-5" class="team-trigger"><span class="lnr lnr-menu"></span></div>
+        <div id="team-link-5" class="team-link">
+          <a href="mailto:accounting@rlsolve.com"><span class="fa fa-envelope"></span></a
+          ><a href="https://www.linkedin.com/in/susanne-smith-102a4ba4?authType=NAME_SEARCH&authToken=J38t&locale=en_US&srchid=1398556271465235577097&srchindex=1&srchtotal=216&trk=vsrp_people_res_name&trkInfo=VSRPsearchId%3A1398556271465235577097%2CVSRPtargetId%3A372852434%2CVSRPcmpt%3Aprimary%2CVSRPnm%3Atrue%2CauthType%3ANAME_SEARCH" target="_blank"><span class="fa fa-linkedin"></span></a>
+        </div>
+      </li>
     </section>
+    <a href="/team" class="team-button">View All</a>
+
   </div>
+</div>
+
+
+<div class="numbers-wrap">
+  <div id="numbers">
+
+    <li>
+      <h1 class="shipment-counter"></h1>
+      <h2>Sheets of Plywood moved annually</h2>
+    </li
+
+    ><li>
+      <h1 class="project-counter"></h1>
+      <h2>Rolls of Toilet Paper moved annually</h2>
+    </li
+
+    ><li>
+      <h1 class="customer-counter"></h1>
+      <h2>Corregated Boxes moved annually</h2>
+    </li>
+
+  </div>
+</div>
+
+<div class="map-wrap">
+  <header><h1>Our Location</h1><h2>Columbia Office</h2></header>
+  <div id="map">
+  </div>
+  <div class="map-overlay"></div>
+
 </div>
 
 <div class="footer-wrap">
-  <div class="footer">
-    <section>
-      <li><h1>Careers</h1></li
-      ><li><h1>About</h1></li
-      ><li><h1>Driver Opportunities</h1></li
-      ><li><h1>Contact</h1></li>
-      <p>RL Solutions, LLC</p>
-    </section>
 
-    <aside>
-      <li><span class="fa fa-linkedin"></span></li>
-      <li><span class="fa fa-facebook"></span></li>
-    </aside>
+  <div class="footer footer-wide">
+    <section>
+      <li>
+        <a href="https://www.google.com/maps/search/1800+saint+julian+place+columbia+sc+suite+103/@33.9959646,-81.0124367,14z/data=!3m1!4b1" target="_blank"><h3>1800 Saint Julian Place, Suite 103</h3></a
+        ><h3>Columbia, SC 29204</h3>
+      </li>
+    </section>
   </div>
+
 </div>
 
 
 <!-- Javascript -->
 <script src='bower_components/jquery/dist/jquery.min.js'></script>
-<script src='bower_components/parsleyjs/dist/parsley.min.js'></script>
-<script src='multiple_steps_form/js/main.js'></script>
-<script src='multiple_steps_form/js/snap_svg.js'></script>
-<script src='multiple_steps_form/js/velocity.js'></script>
+<script src="https://cdn.linearicons.com/free/1.0.0/svgembedder.min.js"></script>
 
-<script src='animatedModal.js-master/animatedModal.min.js'></script>
 <script src='scripts/main.js'></script>
-<script src='scripts/step-form.js'></script>
-<script src="bootstrap-multi-step-registration/assets/bootstrap/js/bootstrap.min.js"></script>
-<script src="bootstrap-multi-step-registration/assets/js/jquery.backstretch.min.js"></script>
-<script src="bootstrap-multi-step-registration/assets/js/retina-1.1.0.min.js"></script>
-<script src="bootstrap-multi-step-registration/assets/js/scripts.js"></script>
+<script src="bower_components/waypoints/lib/noframework.waypoints.min.js"></script>
+<script src="bower_components/waypoints/lib/waypoints.debug.js"></script>
+<script src="bower_components/progressbar.js/dist/progressbar.min.js"></script>
+<script src="scripts/count-to.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDWs7VCt1N7fvUuytkDecqNmsGzUJrxzmI&callback=initMap" async defer></script>
+
 </body>
